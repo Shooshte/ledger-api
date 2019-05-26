@@ -1,0 +1,33 @@
+{
+  "name": "ledger-api",
+  "version": "1.0.0",
+  "description": "NodeJS TypeScript API for my ledger hobby app.",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shooshte/ledger-api.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "NodeJS",
+    "Ledger"
+  ],
+  "author": "shooshte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shooshte/ledger-api/issues"
+  },
+  "homepage": "https://github.com/Shooshte/ledger-api#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
